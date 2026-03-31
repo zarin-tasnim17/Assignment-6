@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="font-sans text-gray-900 bg-white min-h-screen">
       <ToastContainer position="top-right" autoClose={2000} />
-??navbar
+
 
 
 
