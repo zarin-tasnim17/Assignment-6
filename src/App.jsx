@@ -62,7 +62,7 @@ function App() {
       <span className="absolute -top-1 -right-1 bg-[#8B2CFF] text-white text-[9px] font-bold w-4 h-4 flex items-center justify-center rounded-full border-2 border-white">
         {cartItems.length}
       </span>
-     <img src="assets/products/shopping-cart.png"></img>
+     <img src="./assets/products/shopping-cart.png"></img>
     </div>
 
 
@@ -103,7 +103,7 @@ function App() {
         Explore Products
       </button>
       <button className="flex items-center gap-2 border-2 border-[#E2E8F0] px-10 py-4 rounded-full font-bold text-[#6D28D9] hover:bg-slate-50 transition-all">
-        <img src="assets/Play.png"></img>
+        <img src="./assets/Play.png"></img>
         Watch Demo
       </button>
     </div>
@@ -114,7 +114,7 @@ function App() {
     <div className="relative rounded-2xl overflow-hidden shadow-2xl">
 
       <img
-        src="assets/banner.png"
+        src="./assets/banner.png"
         alt="Digital Workflow Preview"
         className="w-full h-auto object-cover"
       />
