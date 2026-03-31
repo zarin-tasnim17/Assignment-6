@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "image":"assets/products/writing_2327400 1.png",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "/Mo",
+    "tag": "Best Seller",
+    "tagType": "warning",
+    "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
+    "icon": "📝"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+        "image":"assets/products/design-tool.png",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "/One-Time",
+    "tag": "Popular",
+    "tagType": "primary",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+        "image":"assets/products/camera.png",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "/Mo",
+    "tag": "New",
+    "tagType": "success",
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
+    "icon": "📷"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+        "image":"assets/products/operation.png",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "/Mo",
+    "tag": "Popular",
+    "tagType": "primary",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+        "image":"assets/products/portfolio.png",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "period": "/One-Time",
+    "tag": "New",
+    "tagType": "success",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+        "image":"assets/products/social-media.png",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "period": "/Mo",
+    "tag": "Best Seller",
+    "tagType": "warning",
+    "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+    "icon": "✨"
+  }
+]
