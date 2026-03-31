@@ -123,6 +123,22 @@ function App() {
     </div>
   </div>
 </header>
+<section className="bg-purple-600 text-white py-12">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center text-center divide-y md:divide-y-0 md:divide-x divide-purple-400">
+          <div className="flex-1 py-4 md:py-0">
+            <h2 className="text-5xl font-bold mb-2">50K+</h2>
+            <p className="text-purple-200">Active Users</p>
+          </div>
+          <div className="flex-1 py-4 md:py-0">
+            <h2 className="text-5xl font-bold mb-2">200+</h2>
+            <p className="text-purple-200">Premium Tools</p>
+          </div>
+          <div className="flex-1 py-4 md:py-0">
+            <h2 className="text-5xl font-bold mb-2">4.9</h2>
+            <p className="text-purple-200">Rating</p>
+          </div>
+        </div>
+      </section>
   </div>
   );
  }
