@@ -260,6 +260,34 @@ function App() {
     </div>
   )}
 </section>
+      <section className="py-24 px-4 bg-white text-center">
+        <h2 className="text-4xl font-bold mb-3">Get Started In 3 Steps</h2>
+        <p className="text-gray-400 mb-16">Start using premium digital tools in minutes, not hours.</p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+          <div className="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm relative group hover:border-[#8B2CFF] transition-colors">
+            <span className="absolute top-6 right-6 bg-[#8B2CFF] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">01</span>
+            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="assets/user.png"></img></div>
+            <h3 className="text-xl font-bold mb-4">Create Account</h3>
+            <p className="text-gray-500 text-sm leading-relaxed">Sign up for free in seconds. No credit card required to get started.</p>
+          </div>
+         
+          <div className="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm relative group hover:border-[#8B2CFF] transition-colors">
+            <span className="absolute top-6 right-6 bg-[#8B2CFF] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">02</span>
+            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="assets/package.png"></img></div>
+            <h3 className="text-xl font-bold mb-4">Choose Products</h3>
+            <p className="text-gray-500 text-sm leading-relaxed">Browse our catalog and select the tools that fit your needs.</p>
+          </div>
+
+          <div className="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm relative group hover:border-[#8B2CFF] transition-colors">
+            <span className="absolute top-6 right-6 bg-[#8B2CFF] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">03</span>
+            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="assets/rocket.png"></img></div>
+            <h3 className="text-xl font-bold mb-4">Start Creating</h3>
+            <p className="text-gray-500 text-sm leading-relaxed">Download and start using your premium tools immediately.</p>
+          </div>
+        </div>
+      </section>
   </div>
   );
  }
