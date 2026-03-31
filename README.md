@@ -1,16 +1,67 @@
-# React + Vite
+# 🛒 Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Modern Digital Marketplace:** Discover and purchase premium digital tools for productivity, design, and content creation.
+* **Intuitive User Experience:** Built with a clean, effortless interface that makes finding the perfect digital asset enjoyable.
+* **E-commerce Demonstration:** Serves as a showcase for building a full-featured front-end application.
+* **Modern Web Practices:** Highlights best practices in component architecture, state management, and responsive design using modern web technologies.
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category | Technology |
+|----------|------------|
+| **Framework** | React 19 |
+| **Build Tool** | Vite |
+| **Styling** | Tailwind CSS 4 |
+
+---
+
+## ✨ Key Features
+
+* **🎯 1. Dynamic Product Catalog:** Browse and filter digital tools instantly with detailed, easy-to-read product cards.
+* **💳 2. Smart Cart System:** Enjoy a seamless checkout experience with persistent cart items, quantity management, and instant notifications.
+* **🎨 3. Beautiful UI:** Experience a visually stunning, fully responsive interface with smooth animations and modern design elements.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/zarin-tasnim17/Assignment-6.git
+
+# Navigate to project directory
+cd Assignment-6
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+---
