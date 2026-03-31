@@ -340,6 +340,87 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="bg-[#8B2CFF] py-24 px-4 text-center">
+        <h2 className="text-4xl font-bold text-white mb-4">Ready To Transform Your Workflow?</h2>
+        <p className="text-purple-100 mb-10 max-w-2xl mx-auto">Join thousands of professionals who are already using DigiTools to work smarter. Start your free trial today.</p>
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <button className="bg-white text-[#8B2CFF] px-10 py-4 rounded-full font-bold shadow-xl">Explore Products</button>
+          <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold hover:bg-white/10">View Pricing</button>
+        </div>
+        <p className="text-purple-200 text-xs mt-6">14-day free trial • No credit card required • Cancel anytime</p>
+      </section>
+      <footer className="bg-[#0B1120] text-gray-400 py-16 px-6 md:px-20 border-t border-gray-800 font-sans">
+      <div className="max-w-7xl mx-auto">
+       
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12 mb-16">
+
+          <div className="col-span-1 md:col-span-2">
+            <h2 className="text-3xl font-bold text-white mb-6">DigiTools</h2>
+            <p className="text-sm leading-relaxed max-w-xs">
+              Premium digital tools for creators, professionals, and businesses.
+              Work smarter with our suite of powerful tools.
+            </p>
+          </div>
+
+       
+          <div>
+            <h4 className="text-white font-medium mb-6 text-base">Product</h4>
+            <ul className="space-y-4 text-sm">
+              <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Templates</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
+            </ul>
+          </div>
+
+         
+          <div>
+            <h4 className="text-white font-medium mb-6 text-base">Company</h4>
+            <ul className="space-y-4 text-sm">
+              <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Press</a></li>
+            </ul>
+          </div>
+
+          
+          <div>
+            <h4 className="text-white font-medium mb-6 text-base">Resources</h4>
+            <ul className="space-y-4 text-sm mb-8">
+              <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Community</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+            </ul>
+
+            <h4 className="text-white font-medium mb-4 text-base">Social Links</h4>
+            <div className="flex gap-3">
+              {/* REPLACE THE DIVS BELOW WITH YOUR <img /> TAGS */}
+              <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer overflow-hidden">
+                <img src="assets/products/instragram.png" alt="Instagram" className="w-6 h-6 object-contain"/>
+              </div>
+              <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer overflow-hidden">
+               <img src="assets/products/facebook.png" alt="Facebook"className="w-6 h-6 object-contain"/>
+              </div>
+              <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer overflow-hidden">
+                <img src="assets/products/X.png" alt="X"className="w-6 h-6 object-contain" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+     
+        <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+          <p>© 2026 Digitools. All rights reserved.</p>
+          <div className="flex gap-8">
+            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-white transition-colors">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
   </div>
   );
