@@ -288,6 +288,59 @@ function App() {
           </div>
         </div>
       </section>
+      
+
+      
+      <section className="py-24 px-4 bg-[#F9FAFB] text-center">
+        <h2 className="text-4xl font-bold mb-3">Simple, Transparent Pricing</h2>
+        <p className="text-gray-400 mb-16">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
+         
+          <div className="bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm">
+            <h4 className="text-xl font-bold">Starter</h4>
+            <p className="text-gray-400 text-sm mt-1 mb-6">Perfect for getting started</p>
+            <div className="text-4xl font-black mb-8">$0 <span className="text-sm font-medium text-gray-400">/Month</span></div>
+            <ul className="space-y-4 mb-10">
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> Access to 10 free tools</li>
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> Basic templates</li>
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> Community support</li>
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> 1 project per month</li>
+            </ul>
+            <button className="w-full bg-[#8B2CFF] text-white py-3.5 rounded-2xl font-bold">Get Started Free</button>
+          </div>
+
+          <div className="bg-[#8B2CFF] p-10 rounded-[2rem] border-2 border-[#8B2CFF] shadow-2xl relative text-white transform scale-105">
+            <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FFD700] text-black text-[10px] font-black uppercase tracking-widest px-4 py-1.5 rounded-full shadow-lg">Most Popular</span>
+            <h4 className="text-xl font-bold">Pro</h4>
+            <p className="text-purple-100 text-sm mt-1 mb-6">Best for professionals</p>
+            <div className="text-4xl font-black mb-8">$29 <span className="text-sm font-medium text-purple-200">/Month</span></div>
+            <ul className="space-y-4 mb-10">
+              <li className="flex items-center gap-3 text-sm"><span className="text-white font-bold">✓</span> Access to all premium tools</li>
+              <li className="flex items-center gap-3 text-sm"><span className="text-white font-bold">✓</span> Unlimited templates</li>
+              <li className="flex items-center gap-3 text-sm"><span className="text-white font-bold">✓</span> Priority support</li>
+              <li className="flex items-center gap-3 text-sm"><span className="text-white font-bold">✓</span> Unlimited projects</li>
+              <li className="flex items-center gap-3 text-sm"><span className="text-white font-bold">✓</span> Cloud sync</li>
+            </ul>
+            <button className="w-full bg-white text-[#8B2CFF] py-3.5 rounded-2xl font-bold shadow-xl">Start Pro Trial</button>
+          </div>
+
+      
+          <div className="bg-white p-10 rounded-[2rem] border border-gray-100 shadow-sm">
+            <h4 className="text-xl font-bold">Enterprise</h4>
+            <p className="text-gray-400 text-sm mt-1 mb-6">For teams and businesses</p>
+            <div className="text-4xl font-black mb-8">$99 <span className="text-sm font-medium text-gray-400">/Month</span></div>
+            <ul className="space-y-4 mb-10">
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> Everything in Pro</li>
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> Team collaboration</li>
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> Custom integrations</li>
+              <li className="flex items-center gap-3 text-sm text-gray-600"><span className="text-green-500 font-bold">✓</span> SLA guarantee</li>
+            </ul>
+            <button className="w-full bg-[#8B2CFF] text-white py-3.5 rounded-2xl font-bold">Contact Sales</button>
+          </div>
+        </div>
+      </section>
+
   </div>
   );
  }
