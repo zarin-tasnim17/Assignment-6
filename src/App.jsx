@@ -62,7 +62,7 @@ function App() {
       <span className="absolute -top-1 -right-1 bg-[#8B2CFF] text-white text-[9px] font-bold w-4 h-4 flex items-center justify-center rounded-full border-2 border-white">
         {cartItems.length}
       </span>
-     <img src="./assets/products/shopping-cart.png"></img>
+     <img src="/assets/products/shopping-cart.png"></img>
     </div>
 
 
@@ -103,7 +103,7 @@ function App() {
         Explore Products
       </button>
       <button className="flex items-center gap-2 border-2 border-[#E2E8F0] px-10 py-4 rounded-full font-bold text-[#6D28D9] hover:bg-slate-50 transition-all">
-        <img src="./assets/Play.png"></img>
+        <img src="/assets/Play.png"></img>
         Watch Demo
       </button>
     </div>
@@ -114,7 +114,7 @@ function App() {
     <div className="relative rounded-2xl overflow-hidden shadow-2xl">
 
       <img
-        src="./assets/banner.png"
+        src="/assets/banner.png"
         alt="Digital Workflow Preview"
         className="w-full h-auto object-cover"
       />
@@ -211,7 +211,7 @@ function App() {
         <div className="text-center py-16">
           <div className="flex justify-center mb-6">
             <img
-              src="assets/products/cart.png"
+              src="/assets/products/cart.png"
               alt="Empty Cart"
               className="w-24 h-24 object-contain"
             />
@@ -268,21 +268,21 @@ function App() {
 
           <div className="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm relative group hover:border-[#8B2CFF] transition-colors">
             <span className="absolute top-6 right-6 bg-[#8B2CFF] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">01</span>
-            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="assets/user.png"></img></div>
+            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="/assets/user.png"></img></div>
             <h3 className="text-xl font-bold mb-4">Create Account</h3>
             <p className="text-gray-500 text-sm leading-relaxed">Sign up for free in seconds. No credit card required to get started.</p>
           </div>
          
           <div className="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm relative group hover:border-[#8B2CFF] transition-colors">
             <span className="absolute top-6 right-6 bg-[#8B2CFF] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">02</span>
-            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="assets/package.png"></img></div>
+            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="/assets/package.png"></img></div>
             <h3 className="text-xl font-bold mb-4">Choose Products</h3>
             <p className="text-gray-500 text-sm leading-relaxed">Browse our catalog and select the tools that fit your needs.</p>
           </div>
 
           <div className="p-10 bg-white rounded-3xl border border-gray-100 shadow-sm relative group hover:border-[#8B2CFF] transition-colors">
             <span className="absolute top-6 right-6 bg-[#8B2CFF] text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded-full">03</span>
-            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="assets/rocket.png"></img></div>
+            <div className="w-20 h-20 bg-[#F4EBFF] rounded-3xl flex items-center justify-center text-3xl mx-auto mb-8 text-[#8B2CFF]"><img src="/assets/rocket.png"></img></div>
             <h3 className="text-xl font-bold mb-4">Start Creating</h3>
             <p className="text-gray-500 text-sm leading-relaxed">Download and start using your premium tools immediately.</p>
           </div>
@@ -396,15 +396,15 @@ function App() {
 
             <h4 className="text-white font-medium mb-4 text-base">Social Links</h4>
             <div className="flex gap-3">
-              {/* REPLACE THE DIVS BELOW WITH YOUR <img /> TAGS */}
+             
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer overflow-hidden">
-                <img src="assets/products/instragram.png" alt="Instagram" className="w-6 h-6 object-contain"/>
+                <img src="/assets/products/instragram.png" alt="Instagram" className="w-6 h-6 object-contain"/>
               </div>
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer overflow-hidden">
-               <img src="assets/products/facebook.png" alt="Facebook"className="w-6 h-6 object-contain"/>
+               <img src="/assets/products/facebook.png" alt="Facebook"className="w-6 h-6 object-contain"/>
               </div>
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center cursor-pointer overflow-hidden">
-                <img src="assets/products/X.png" alt="X"className="w-6 h-6 object-contain" />
+                <img src="/assets/products/X.png" alt="X"className="w-6 h-6 object-contain" />
               </div>
             </div>
           </div>
