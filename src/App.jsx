@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="font-sans text-gray-900 bg-white min-h-screen">
       <ToastContainer position="top-right" autoClose={2000} />
-
+??navbar
 
 
 
@@ -73,7 +73,57 @@ function App() {
     </button>
   </div>
 </nav>
-   </div>
+<header className="px-4 md:px-24 py-20 flex flex-col md:flex-row items-center gap-16 min-h-[600px] bg-white">
+
+  <div className="flex-1 space-y-8">
+
+
+    <div className="inline-flex items-center gap-2 bg-[#EBE5FF] text-[#6D28D9] rounded-full px-4 py-1.5 shadow-sm">
+      <span className="relative flex h-3 w-3">
+        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#8B2CFF] opacity-75"></span>
+        <span className="relative inline-flex rounded-full h-3 w-3 bg-[#8B2CFF]"></span>
+      </span>
+      <span className="text-sm font-semibold">New: AI-Powered Tools Available</span>
+    </div>
+
+
+    <h1 className="text-6xl md:text-7xl font-bold tracking-tight text-[#1E293B] leading-[1.1]">
+      Supercharge Your <br />
+      <span className="text-[#334155]">Digital Workflow</span>
+    </h1>
+
+
+    <p className="text-slate-500 text-xl max-w-lg leading-relaxed">
+      Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.
+    </p>
+
+
+    <div className="flex flex-wrap gap-4 pt-4">
+      <button className="bg-[#8B2CFF] hover:bg-[#7A26E0] text-white rounded-full px-10 py-4 font-bold transition-all shadow-lg shadow-purple-200">
+        Explore Products
+      </button>
+      <button className="flex items-center gap-2 border-2 border-[#E2E8F0] px-10 py-4 rounded-full font-bold text-[#6D28D9] hover:bg-slate-50 transition-all">
+        <img src="assets/Play.png"></img>
+        Watch Demo
+      </button>
+    </div>
+  </div>
+
+
+  <div className="flex-1 w-full max-w-2xl">
+    <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+
+      <img
+        src="assets/banner.png"
+        alt="Digital Workflow Preview"
+        className="w-full h-auto object-cover"
+      />
+
+      <div className="absolute inset-0 bg-gradient-to-tr from-white/20 to-transparent pointer-events-none"></div>
+    </div>
+  </div>
+</header>
+  </div>
   );
  }
 
